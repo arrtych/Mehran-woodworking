@@ -13,8 +13,8 @@
 </head>
 
 <body>
-	<div class="navigation-content">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<div class="navigation-content" id="navigation-content">
+		<nav class="navbar navbar-expand-lg  navbar-light  fixed-top bg-light">
 			<img src="images/logo-sm.jpg" alt="Logo">
 			<a class="navbar-brand logo-img" href="#"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation" style="">
@@ -24,16 +24,16 @@
 			<div class="collapse navbar-collapse" id="navbarColor03">
 			<ul class="navbar-nav mr-auto">
 			<li class="nav-item active">
-			<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			<a class="nav-link text-uppercase" href="#"navigation-content>Home <span class="sr-only">(current)</span></a>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href="#">Features</a>
+			<a class="nav-link text-uppercase" href="#wedo-content">About Us</a>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href="#">Pricing</a>
+			<a class="nav-link text-uppercase" href="#wood-types-content container">Services</a>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href="#">About</a>
+			<a class="nav-link text-uppercase" href="#contact-form-content">Contact</a>
 			</li>
 			</ul>
 			</div>
@@ -83,7 +83,7 @@
 		</div>	
 	</div>
 	
-	<div class="wedo-content">
+	<div class="wedo-content" id="wedo-content">
 		<div class="container">
 			<div class="row">
 			<div class="col-md-7">
@@ -97,7 +97,7 @@
 		</div>
 	</div>
 	
-	<div class="wood-types-content container">
+	<div class="wood-types-content container" id="wood-types-content container">
 		<div class="types-header">
 			<h3 class="text-uppercase text-center">Types of wood</h3>
 		</div>
@@ -127,33 +127,147 @@
 		<img src="images/map.JPG" alt="Map">
 	</div>
 	
-		<div class="contact-form-content">
-			<!-- <div class="container"> -->
-<div class="types-header">
-<h3 class="text-uppercase text-center">Contact form</h3>
-</div>
-				<div class="row">
-				<div class="col-md-3">
-				</div>
-					<div class="col-md-6">
+	<div class="contact-form-content" id="contact-form-content">
+		<div class="types-header">
+		<h3 class="text-uppercase text-center">Contact form</h3>
+		</div>
+		<div class="row">
+		<div class="col-md-3">
+		</div>
+			<div class="col-md-6">
 
-						<form>
-							<div class="form-group">
-							<label for="exampleInputEmail1">Email address</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-							</div>
-							<div class="form-group">
-								<label for="exampleTextarea">Example textarea</label>
-								<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-							</div>
-						<button type="submit" class="btn btn-primary float-right">Submit</button>
-						</form>
+				<form>
+					<div class="form-group">
+					<label for="exampleInputEmail1">Email address</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 					</div>
-					<div class="col-md-3">
+					<div class="form-group">
+						<label for="exampleTextarea">Example textarea</label>
+						<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+					</div>
+				<button type="submit" class="btn btn-primary float-right">Submit</button>
+				</form>
+			</div>
+			<div class="col-md-3">
+		</div>
+		</div>
+	</div>
+	
+	<div class="footer-content">
+	<hr>
+		<!--Footer-->
+	<footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
+
+		<!--Footer Links-->
+		<div class="container text-center text-md-left">
+			<div class="row">
+
+				<!--First column-->
+				<div class="col-md-4">
+					<!-- <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Footer Content</h5> -->
+					<img src="images/logo-sm.jpg" alt="Logo">
+					<p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
+						amet, consectetur adipisicing elit.</p>
 				</div>
+				<!--/.First column-->
+
+				<hr class="clearfix w-100 d-md-none">
+
+				<!--Second column-->
+				<div class="col-md-2 mx-auto">
+					<h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Links</h5>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#!">Link 1</a>
+						</li>
+						<li>
+							<a href="#!">Link 2</a>
+						</li>
+						<li>
+							<a href="#!">Link 3</a>
+						</li>
+						<li>
+							<a href="#!">Link 4</a>
+						</li>
+					</ul>
 				</div>
-			<!-- </div> -->
+				<!--/.Second column-->
+
+				<hr class="clearfix w-100 d-md-none">
+
+				<!--Third column-->
+				<div class="col-md-2 mx-auto">
+					<h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Links</h5>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#!">Link 1</a>
+						</li>
+						<li>
+							<a href="#!">Link 2</a>
+						</li>
+						<li>
+							<a href="#!">Link 3</a>
+						</li>
+						<li>
+							<a href="#!">Link 4</a>
+						</li>
+					</ul>
+				</div>
+				<!--/.Third column-->
+
+				<hr class="clearfix w-100 d-md-none">
+
+				<!--Fourth column-->
+				<div class="col-md-2 mx-auto">
+					<h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Site map</h5>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#!">Link 1</a>
+						</li>
+						<li>
+							<a href="#!">Link 2</a>
+						</li>
+						<li>
+							<a href="#!">Link 3</a>
+						</li>
+						<li>
+							<a href="#!">Link 4</a>
+						</li>
+					</ul>
+				</div>
+				<!--/.Fourth column-->
+			</div>
+		</div>
+		<!--/.Footer Links-->
+
+		<hr>
+
+		<!--Call to action-->
+		<div class="text-center py-3">
+		<h3 class="text-uppercase">Subscribe for news!</h3>
+			<ul class="list-unstyled list-inline mb-0">
+			<!-- 	<li class="list-inline-item">
+					<h5 class="mb-1">Subscribe for news!</h5>
+				</li> -->
+				<li class="list-inline-item">
+					<a href="#!" class="btn btn-danger btn-rounded">Subscribe</a>
+				</li>
+			</ul>
+		</div>
+		<!--/.Call to action-->
+
+		<hr>
+
+		<!--Copyright-->
+		<div class="footer-copyright py-3 text-center">
+			© 2018 Copyright:
+			<a href="https://mdbootstrap.com/material-design-for-bootstrap/">Bootstrap.com </a>
+		</div>
+		<!--/.Copyright-->
+
+	</footer>
+	<!--/.Footer-->
 	</div>
 </body>
 

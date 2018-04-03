@@ -1,15 +1,29 @@
 /* .logo-img img{
 	width: 80%;
 } */
-.wood-types-content,.wedo-content,.map-content{
-	padding-bottom: 0.8em;
-	padding-top: 0.8em;
+
+.slider-content,
+.wood-types-content,
+.wedo-content,
+.map-content,
+.footer-content{
+	padding-bottom: 0.85em;
+	padding-top: 1em;
 }
 .navbar-nav{
-	font-size: 1.5em;
+	font-size: 1 em;
     color: black;
+	font-weight: 600;
+
 }
 .types-header{
 	padding:0.75em;
 
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
