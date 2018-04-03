@@ -1,0 +1,15 @@
+/* .logo-img img{
+	width: 80%;
+} */
+.wood-types-content,.wedo-content,.map-content{
+	padding-bottom: 0.8em;
+	padding-top: 0.8em;
+}
+.navbar-nav{
+	font-size: 1.5em;
+    color: black;
+}
+.types-header{
+	padding:0.75em;
+
+}
