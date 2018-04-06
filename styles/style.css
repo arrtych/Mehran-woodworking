@@ -90,3 +90,11 @@ body {
 	padding-top: 1em !important;
 	color:red;
 }
+
+.no-padding {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.slider-content {
+	margin-top: 4.85em;
+}
