@@ -1,6 +1,16 @@
 body {
 	overflow-x: hidden;
-	background-color: #ecddc3;
+	color: white;
+	/*background-color: #ecddc3;*/
+	
+}
+
+.bg {
+	background-image: url(../images/7.jpg); /* Путь к фоновому изображению  */
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 /*.slider-content,*/
 /*.wood-types-content,*/
@@ -33,7 +43,9 @@ body {
 }*/
 
 .wood-color {
-	background-color: #e4b6668a;
+	/*background-color: #e4b6668a;*/
+	background-color: #bb7652db;
+	/*background-color: #d05630e3;*/
 }
 /*.c-form,.map{
 	padding: 0.5em;
@@ -81,6 +93,7 @@ body {
 	padding-bottom: 1em !important;
 	padding-top: 1em !important;
 	color:red;
+	background-color: #e7c790;
 }
 
 .no-padding {
@@ -90,3 +103,12 @@ body {
 .slider-content {
 	margin-top: 4.85em;
 }
+.wood-types-content {
+	padding: 1em;
+}
+
+/*.types-styles:hover {
+	background-color: #e1b078e3;
+    border-radius: 0.6em;
+
+}*/
