@@ -27,17 +27,16 @@ body {
 	font-weight: 600;
 
 }
-.types-header {
+.header-style {
 	padding:0.75em;
 
+
 }
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 12.45em;
-    left: 12.45em;
-    z-index: 1030;
+.wedo-content  h3, .contact-form-content  h3 {
+	color: #3d2314;
+	font-weight: 600;
 }
+
 /*.wedo-content > .container,.contact-form-content {
 	background-color: #e4b6668a;
 }*/
@@ -56,9 +55,6 @@ body {
 .menu ul {
 	padding-left: 11em;
 }
-/*.navigation-content {
-	background-color: #f0d7ac;
-}*/
 .navbar {
 	margin-bottom: 0px !important;
 	min-height: 68px !important;
@@ -101,7 +97,7 @@ body {
 	padding-left: 0 !important;
 }
 .slider-content {
-	margin-top: 4.85em;
+	/*margin-top: 4.85em;*/
 }
 .wood-types-content {
 	padding: 1em;
@@ -112,3 +108,9 @@ body {
     border-radius: 0.6em;
 
 }*/
+.types-styles {
+	padding: 1em;
+}
+.menu-btn {
+	background-color: #ae2220;
+}
